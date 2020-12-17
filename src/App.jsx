@@ -66,7 +66,7 @@ function App() {
               <h3 className="login-heading mb-4 font-weight-bold">{textData[lang].helloText}</h3>
               <form>
                 <div className="form-label-group">
-                  <input type="email" id="inputEmail" className="form-control" placeholder={textData[lang].emailText} required autofocus
+                  <input type="email" id="inputEmail" className="form-control" placeholder={textData[lang].emailText} required autoFocus
                   ref={loginCheck} onChange={
                     () => {
                       if (loginCheck.current.value.trim() > 5) {
