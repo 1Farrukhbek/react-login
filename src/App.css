@@ -43,16 +43,6 @@
   --input-padding-y: 0.75rem;
 }
 
-.login,
-.image {
-  min-height: 100vh;
-}
-
-.bg-image {
-  background-image: url('https://picsum.photos/id/4/500/800');
-  background-size: cover;
-  background-position: center;
-}
 
 .login-heading {
   font-weight: 300;
@@ -126,28 +116,6 @@
   color: #777;
 }
 
-/* Fallback for Edge
--------------------------------------------------- */
 
-@supports (-ms-ime-align: auto) {
-  .form-label-group>label {
-    display: none;
-  }
-  .form-label-group input::-ms-input-placeholder {
-    color: #777;
-  }
-}
 
-/* Fallback for IE
--------------------------------------------------- */
-
-@media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-  .form-label-group>label {
-    display: none;
-  }
-  .form-label-group input:-ms-input-placeholder {
-    color: #777;
-  }
-}
 
